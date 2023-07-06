@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&display=swap');
+body {
+  margin: 0;
+  position: relative;
+  font-family: 'Karla', sans-serif;
+  color: #293264;
+  background-color: #F5F7FB;
+}
+
+.blob-baby, 
+.blob-lemony {
+  position: fixed;
+  z-index: -10;
+}
+
+.blob-lemony {
+  top: 0;
+  right: 0;
+}
+
+.blob-baby {
+  top: 84vh;
+}
+
+h1,
+p { 
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25em;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+hr {
+  opacity: 0.25;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+  border: none;
+  background-color: #4D5B9E;
+  font-size: 1.25rem;
+  padding: 0.75rem 3.5rem;
+  border-radius: 10px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+button:hover,
+button:focus {
+  background-color: #353e6d;
+  color: #F5F7FB;
+}
+
+button:active {
+  font-size: 1.2rem;
+}
+
+.intro-cont {
+  margin: 30vh auto 0;
+  width: 400px;
+  text-align: center;
+}
+
+.intro-cont p {
+  margin-bottom: 2em;
+}
+
+.quiz-page {
+  text-align: center;
+  padding: 2em;
+}
+
+.quiz-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-cont {
+  margin-bottom: 0.75em;
+}
+
+.question {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.625em;
+}
+
+.answer-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.answer-cont:first-child span{
+  margin-left: 2rem;
+}
+
+.answer {
+  border: 1px solid #4D5B9E;
+  border-radius: 10px;
+  padding: 0.25em 1em;
+  font-size: 1.125rem;
+  margin-left: 1rem;
+}
+
+.not-checked-answer:hover,
+.not-checked-answer:focus {
+  background-color:#e9ebee;
+  cursor: pointer;
+}
+
+.correct-answer {
+  border: none;
+  background-color: #94D7A2;
+}
+
+.unable-answer {
+  opacity: 0.5;
+}
+
+.wrong-answer {
+  border: none;
+  background-color: #F8BCBC;
+  opacity: 0.5;
+}
+
+.loading {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.footer-quiz-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-quiz-page p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 0.5em;
+}
